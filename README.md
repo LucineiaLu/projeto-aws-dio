@@ -70,6 +70,13 @@ O Amazon RDS foi adotado para bancos de dados relacionais, oferecendo backups au
 - Recuperação de desastres  
 
 ---
+Conclusão
+
+A implementação dos serviços Amazon EC2 com Auto Scaling, Amazon S3 e Amazon RDS na empresa Abstergo Industries tem como resultado esperado a redução de custos operacionais, maior escalabilidade, aumento da disponibilidade dos sistemas e simplificação do gerenciamento da infraestrutura.
+
+Recomenda-se a continuidade do uso desses serviços e a constante avaliação de novas soluções AWS que possam ampliar ainda mais a eficiência, segurança e inovação nos processos da empresa.
+
+---
 
 ## 📊 Resultados Esperados
 
