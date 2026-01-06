@@ -1,123 +1,56 @@
-# projeto-aws-dio
 RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
-# 🚀 Implementação de Serviços AWS – Redução de Custos Operacionais
 
-## 📌 Sobre o Projeto
+Data: 03/01/2026
+Empresa: Abstergo Industries
+Responsável: Lucineia Rodrigues
 
-Este projeto foi desenvolvido como parte de um **desafio prático da DIO**, com o objetivo de aplicar conceitos de **computação em nuvem com AWS**, focando na **redução imediata de custos**, escalabilidade e melhoria da eficiência operacional.
+Introdução
 
-O projeto simula um cenário real de implantação de serviços AWS na empresa **Abstergo Industries**, seguindo boas práticas de arquitetura em nuvem.
+Este relatório apresenta o processo de implementação de serviços AWS na empresa Abstergo Industries, realizado por Lucineia Rodrigues.
+O objetivo do projeto foi selecionar e aplicar três serviços da AWS com foco na redução imediata de custos operacionais, aumento da escalabilidade e melhoria da eficiência da infraestrutura de TI, utilizando boas práticas de computação em nuvem.
 
----
+Descrição do Projeto
 
-## 🎯 Objetivo do Desafio
+O projeto de implementação foi dividido em três etapas, cada uma com um objetivo específico voltado à otimização de recursos e custos.
 
-- Aplicar na prática os conceitos estudados sobre AWS  
-- Selecionar serviços adequados para redução de custos  
-- Demonstrar entendimento sobre escalabilidade, disponibilidade e gerenciamento  
-- Construir um repositório organizado e bem documentado no GitHub  
+Etapa 1 – Amazon EC2 com Auto Scaling
 
----
+Foco: Escalabilidade e otimização de custos
 
-## 🏢 Empresa Fictícia
+Descrição do caso de uso:
+O Amazon EC2 foi configurado em conjunto com o Auto Scaling, permitindo que as instâncias sejam criadas ou encerradas automaticamente conforme a demanda.
+Essa abordagem evita gastos com recursos ociosos, garantindo que a empresa pague apenas pelo que realmente utiliza, além de melhorar a disponibilidade dos serviços.
 
-- **Empresa:** Abstergo Industries  
-- **Responsável pelo Projeto:** Lucineia Rodrigues  
+Etapa 2 – Amazon S3
 
----
+Foco: Armazenamento escalável e de baixo custo
 
-## 🛠️ Serviços AWS Utilizados
+Descrição do caso de uso:
+O Amazon S3 foi utilizado para armazenar arquivos, backups e dados não estruturados.
+Com alta durabilidade e diferentes classes de armazenamento, o serviço possibilita a redução de custos ao armazenar dados acessados com menor frequência em camadas mais econômicas, eliminando a necessidade de infraestrutura local.
 
-O projeto foi dividido em **3 etapas**, cada uma utilizando um serviço AWS específico:
+Etapa 3 – Amazon RDS
 
----
+Foco: Gerenciamento simplificado de banco de dados
 
-### 🔹 Etapa 1 – Amazon EC2 com Auto Scaling
+Descrição do caso de uso:
+O Amazon RDS foi adotado para hospedar bancos de dados relacionais, oferecendo backups automáticos, patches de segurança, alta disponibilidade e failover.
+Isso reduz custos operacionais relacionados à administração manual de servidores de banco de dados e aumenta a confiabilidade do ambiente.
 
-- **Foco:** Escalabilidade e otimização de custos  
-- **Descrição:**  
-O Amazon EC2 foi configurado com **Auto Scaling**, permitindo que instâncias sejam criadas ou removidas automaticamente conforme a demanda.  
-Isso garante alta disponibilidade e evita custos com recursos ociosos.
+Conclusão
 
-**Benefícios:**
-- Escalabilidade automática  
-- Alta disponibilidade  
-- Pagamento conforme o uso  
+A implementação dos serviços Amazon EC2 com Auto Scaling, Amazon S3 e Amazon RDS na empresa Abstergo Industries tem como resultado esperado a redução de custos operacionais, maior escalabilidade, aumento da disponibilidade dos sistemas e simplificação do gerenciamento da infraestrutura.
 
----
+Recomenda-se a continuidade do uso desses serviços e a constante avaliação de novas soluções AWS que possam ampliar ainda mais a eficiência, segurança e inovação nos processos da empresa.
 
-### 🔹 Etapa 2 – Amazon S3
+Anexos
 
-- **Foco:** Armazenamento seguro e de baixo custo  
-- **Descrição:**  
-O Amazon S3 foi utilizado para armazenamento de arquivos, backups e dados não estruturados.  
-Com diferentes classes de armazenamento, foi possível reduzir custos ao armazenar dados menos acessados em camadas mais econômicas.
+Documentação de referência da AWS
 
-**Benefícios:**
-- Alta durabilidade  
-- Escalabilidade praticamente ilimitada  
-- Redução de custos com infraestrutura local  
+Diagramas de arquitetura
 
----
+Planilhas de estimativa de custos
 
-### 🔹 Etapa 3 – Amazon RDS
+Assinatura do Responsável pelo Projeto:
 
-- **Foco:** Gerenciamento simplificado de banco de dados  
-- **Descrição:**  
-O Amazon RDS foi adotado para bancos de dados relacionais, oferecendo backups automáticos, patches de segurança, redundância e failover.
-
-**Benefícios:**
-- Menor esforço operacional  
-- Alta disponibilidade  
-- Recuperação de desastres  
-
----
-
-## 📊 Resultados Esperados
-
-- Redução significativa de custos operacionais  
-- Maior escalabilidade da infraestrutura  
-- Aumento da disponibilidade dos sistemas  
-- Simplificação do gerenciamento de recursos de TI  
-
----
-
-## 📂 Estrutura do Repositório
-
-📁 projeto-aws-dio
-├── README.md
-├── relatorio-implementacao-aws.md
-└── anexos/
-├── diagramas
-└── documentos
-
-
----
-
-## ▶️ Como Reproduzir o Projeto
-
-1. Criar uma conta na AWS  
-2. Configurar:
-   - Instâncias EC2 com Auto Scaling
-   - Bucket no Amazon S3
-   - Banco de dados no Amazon RDS
-3. Monitorar custos e desempenho utilizando o console AWS  
-
----
-
-## 📚 Referências
-
-- Documentação oficial AWS  
-- Materiais do curso DIO  
-- Boas práticas de arquitetura em nuvem  
-
----
-
-## ✍️ Autora
-
-**Lucineia Rodrigues**  
-Projeto desenvolvido para a plataforma **DIO – Digital Innovation One**
-
----
-
-⭐ Se este projeto te ajudou, não esqueça de deixar uma estrela no repositório!
+Lucineia Rodrigues
